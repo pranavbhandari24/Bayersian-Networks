@@ -15,10 +15,14 @@ In general, bnet takes 1 to 6(no more, no fewer) command line arguments, as foll
 # Examples
 
 1. To print out the probability P(Burglary=true and Alarm=false | MaryCalls=false).
+
         python compute_probability.py Bt Af given Mf
 2. To print out the probability P(Alarm=false and Earthquake=true).
+
         python compute_probability.py Af Et
 3. To print out the probability P(JohnCalls=true and Alarm=false | Burglary=true and Earthquake=false).
+
         python compute_probability.py Jt Af given Bt Ef
 4. To print out the probability P(Burglary=true and Alarm=false and MaryCalls=false and JohnCalls=true and Earthquake=true).
+
         python compute_probability.py Bt Af Mf Jt Et
