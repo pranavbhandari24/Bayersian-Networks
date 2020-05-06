@@ -4,6 +4,7 @@ For the Bayesian network Fig, this program computes and prints out the probabili
 # Compile and Run
 
 The program can be run using the following command,
+
         python compute_probability.py < events > given < events >
     
 # Note
